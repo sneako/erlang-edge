@@ -1,6 +1,5 @@
 FROM ubuntu:jammy-20231004 AS build
 
-# the commit where parallel signal sending optimization was added
 ENV ERLANG_SOURCE https://github.com/erlang/otp
 ENV ERLANG_REV 3ee992194c5cc7f449e0af9035accb63bf9e139d
 ENV LANG=C.UTF-8
